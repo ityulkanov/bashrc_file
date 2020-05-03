@@ -83,7 +83,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
     #History search (use: hs sometext)
-    alias hs='history | grep $1'
+    alias hg='history | grep $1'
     alias exl="nautilus ."
 fi
 
